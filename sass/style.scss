@@ -8,3 +8,14 @@ body {
 	background-color: #928181;
 	font-family: 'Montserrat', sans-serif;
 }
+
+nav {
+	text-transform: uppercase;
+
+	.nav-link,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .nav-link.show,
+	.navbar-brand {
+		color: white;
+	}
+}
