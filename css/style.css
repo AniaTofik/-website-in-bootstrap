@@ -13,10 +13,16 @@ nav {
   text-transform: uppercase;
 }
 nav .nav-link,
-nav .navbar-nav .nav-link.active,
+nav .navbar-nav,
 nav .navbar-nav .nav-link.show,
 nav .navbar-brand,
 nav .navbar-toggler-icon,
 nav .material-symbols-outlined {
   color: #fff;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+  color: #1d1313;
 }/*# sourceMappingURL=style.css.map */

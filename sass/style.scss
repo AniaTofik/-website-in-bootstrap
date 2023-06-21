@@ -1,3 +1,5 @@
+@use './colors' as *;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -13,11 +15,18 @@ nav {
 	text-transform: uppercase;
 
 	.nav-link,
-	.navbar-nav .nav-link.active,
+	.navbar-nav,
 	.navbar-nav .nav-link.show,
 	.navbar-brand,
 	.navbar-toggler-icon,
 	.material-symbols-outlined {
-		color: #fff;
+		color: $main-color;
+	}
+
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .nav-link.show {
+		color: $detail-color;
 	}
 }
