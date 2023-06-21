@@ -15,6 +15,8 @@ nav {
 nav .nav-link,
 nav .navbar-nav .nav-link.active,
 nav .navbar-nav .nav-link.show,
-nav .navbar-brand {
-  color: white;
+nav .navbar-brand,
+nav .navbar-toggler-icon,
+nav .material-symbols-outlined {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
