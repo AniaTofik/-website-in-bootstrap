@@ -85,6 +85,14 @@ header.hero-img .material-symbols-outlined {
   font-size: 60px;
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
 @media (min-width: 1200px) {
   header.hero-img {
     background-image: url("../img/video-games-1557358_1920.jpg");
