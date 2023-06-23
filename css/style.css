@@ -34,7 +34,7 @@ nav.navbar .navbar-nav .nav-link.show,
 nav.navbar .navbar-brand,
 nav.navbar .navbar-toggler-icon,
 nav.navbar .material-symbols-outlined {
-  color: #fff;
+  color: #f1e9f1;
 }
 nav.navbar .nav-link:focus,
 nav.navbar .nav-link:hover,
@@ -45,7 +45,7 @@ nav.navbar .navbar-nav .nav-link.show {
 
 header.hero-img {
   position: relative;
-  background-image: url("../img/video-games-1557358_1920.jpg");
+  background-image: url("../img/video-games-1557358_640.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -54,7 +54,7 @@ header.hero-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #f1e9f1;
 }
 header.hero-img span.logo {
   font-weight: bold;
@@ -68,4 +68,25 @@ header.hero-img .hero-shadow {
   height: 100%;
   background-color: rgba(22, 15, 15, 0.8);
   z-index: -1;
+}
+header.hero-img .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header.hero-img .material-symbols-outlined {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  font-weight: bold;
+  color: #f1e9f1;
+  font-size: 60px;
+}
+
+@media (min-width: 1200px) {
+  header.hero-img {
+    background-image: url("../img/video-games-1557358_1920.jpg");
+  }
 }/*# sourceMappingURL=style.css.map */
