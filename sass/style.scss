@@ -13,9 +13,14 @@ span.logo {
 	color: $detail-color;
 }
 
+.shadow-bg {
+	background-color: rgba(20, 18, 18, 0.9);
+}
+
 nav.navbar {
 	z-index: 1;
 	text-transform: uppercase;
+	transition: 0.6;
 
 	navbar-toggler {
 		padding: 10px 15px;
