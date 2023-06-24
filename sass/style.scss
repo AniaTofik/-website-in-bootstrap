@@ -6,6 +6,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-padding-top: 58px;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -106,6 +110,7 @@ header.hero-img {
 
 // aboutus
 .aboutus {
+	
 	background-color: rgb(240, 210, 210);
 	background-color: $main-color;
 	.material-symbols-outlined {
