@@ -17,10 +17,15 @@ span.logo {
 	background-color: rgba(20, 18, 18, 0.9);
 }
 
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
 nav.navbar {
 	z-index: 1;
 	text-transform: uppercase;
-	transition: 0.6;
+	transition: background-color 0.6;
 
 	navbar-toggler {
 		padding: 10px 15px;
@@ -34,6 +39,7 @@ nav.navbar {
 	}
 	.navbar-brand {
 		font-weight: bold;
+		letter-spacing: 2px;
 	}
 
 	.nav-link,
@@ -84,6 +90,7 @@ header.hero-img {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		letter-spacing: 2px;
 	}
 
 	.material-symbols-outlined {
@@ -94,6 +101,37 @@ header.hero-img {
 		font-weight: bold;
 		color: $main-color;
 		font-size: 60px;
+	}
+}
+
+// aboutus
+.aboutus {
+	background-color: rgb(240, 210, 210);
+	background-color: $main-color;
+	.material-symbols-outlined {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	.underline {
+		margin-top: 20px;
+		margin: 0 auto 40px;
+		width: 12%;
+		height: 4px;
+		background-color: $detail-color;
+	}
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+
+	.card {
+		transition: color 0.3s;
+	}
+	.card:hover {
+		color: $detail-color;
 	}
 }
 @media (min-width: 768px) {
