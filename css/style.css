@@ -123,10 +123,10 @@ header.hero-img .material-symbols-outlined {
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
-.aboutus .card {
+.aboutus .abouus-hover {
   transition: color 0.3s;
 }
-.aboutus .card:hover {
+.aboutus .abouus-hover:hover {
   color: rgb(209, 32, 141);
 }
 
