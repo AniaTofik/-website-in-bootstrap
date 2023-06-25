@@ -169,6 +169,24 @@ header.hero-img {
 	}
 }
 
+// portfolio
+
+.carousel-caption {
+	// position: relative;
+	// z-index: 0;
+	color: $main-color;
+}
+
+.portfolio-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(22, 15, 15, 0.8);
+	z-index: -1;
+}
+
 @media (min-width: 768px) {
 	h1 {
 		font-size: 38px;
