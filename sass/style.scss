@@ -194,6 +194,10 @@ header.hero-img {
 	.carousel-indicators {
 		margin-bottom: 30px;
 	}
+
+	.card {
+		box-sizing: border-box;
+	}
 }
 
 @media (min-width: 768px) {

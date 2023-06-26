@@ -180,6 +180,9 @@ header.hero-img .material-symbols-outlined {
 .portfolio .carousel-indicators {
   margin-bottom: 30px;
 }
+.portfolio .card {
+  box-sizing: border-box;
+}
 
 @media (min-width: 768px) {
   h1 {
