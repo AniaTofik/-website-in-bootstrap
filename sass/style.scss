@@ -175,7 +175,9 @@ header.hero-img {
 	background-color: $main-color;
 
 	.carousel-item {
-		height: 500px;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 
 	.carousel-caption {
@@ -195,8 +197,28 @@ header.hero-img {
 		margin-bottom: 30px;
 	}
 
-	.card {
+	.row {
 		box-sizing: border-box;
+		.card {
+			background-color: $main-color;
+			border: none;
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.portfolio {
+		.row {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.card {
+				width: 250px;
+				height: 400px;
+				margin-right: 8px;
+				margin-left: 8px;
+			}
+		}
 	}
 }
 
@@ -206,6 +228,16 @@ header.hero-img {
 	}
 	p {
 		font-size: 20px;
+	}
+	.portfolio {
+		.row {
+			.card {
+				width: 300px;
+				height: 500px;
+				margin-right: 8px;
+				margin-left: 8px;
+			}
+		}
 	}
 }
 @media (min-width: 1200px) {
