@@ -14,7 +14,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 span.logo {
-  color: $detail-color;
+  color: red;
 }
 
 .shadow-bg {
@@ -49,6 +49,7 @@ nav.navbar {
   .navbar-brand:hover {
     color: $detail-color;
   }
+
   .navbar-brand {
     font-weight: bold;
     letter-spacing: 2px;
