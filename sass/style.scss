@@ -1,250 +1,260 @@
-@use './colors' as *;
+@use "./colors" as *;
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	scroll-padding-top: 58px;
+  scroll-padding-top: 58px;
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 span.logo {
-	color: $detail-color;
+  color: $detail-color;
 }
 
 .shadow-bg {
-	background-color: rgba(20, 18, 18, 0.9);
+  background-color: rgba(20, 18, 18, 0.9);
 }
 
 .section-title {
-	text-align: center;
-	text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .underline {
-	margin-top: 20px;
-	margin: 0 auto 20px;
-	width: 12%;
-	height: 4px;
-	background-color: $detail-color;
+  margin-top: 20px;
+  margin: 0 auto 20px;
+  width: 12%;
+  height: 4px;
+  background-color: $detail-color;
 }
 
 nav.navbar {
-	z-index: 1;
-	text-transform: uppercase;
-	transition: background-color 0.6;
+  z-index: 1;
+  text-transform: uppercase;
+  transition: background-color 0.6;
 
-	navbar-toggler {
-		padding: 10px 15px;
-	}
+  navbar-toggler {
+    padding: 10px 15px;
+  }
 
-	.navbar-brand:hover {
-		color: $detail-color;
-	}
-	.navbar-brand:hover {
-		color: $detail-color;
-	}
-	.navbar-brand {
-		font-weight: bold;
-		letter-spacing: 2px;
-	}
+  .navbar-brand:hover {
+    color: $detail-color;
+  }
+  .navbar-brand:hover {
+    color: $detail-color;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
 
-	.nav-link,
-	.navbar-nav,
-	.navbar-nav .nav-link.show,
-	.navbar-brand,
-	.navbar-toggler-icon,
-	.material-symbols-outlined {
-		color: $main-color;
-	}
+  .nav-link,
+  .navbar-nav,
+  .navbar-nav .nav-link.show,
+  .navbar-brand,
+  .navbar-toggler-icon,
+  .material-symbols-outlined {
+    color: $main-color;
+  }
 
-	.nav-link:focus,
-	.nav-link:hover,
-	.navbar-nav .nav-link.active,
-	.navbar-nav .nav-link.show {
-		color: $detail-color;
-	}
+  .nav-link:focus,
+  .nav-link:hover,
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: $detail-color;
+  }
 }
 
 header.hero-img {
-	position: relative;
-	background-image: url('../img/video-games-1557358_640.jpg');
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	z-index: 0;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: $main-color;
+  position: relative;
+  background-image: url("../img/video-games-1557358_640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $main-color;
 
-	span.logo {
-		font-weight: bold;
-		color: $detail-color;
-	}
-	.hero-shadow {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(22, 15, 15, 0.8);
-		z-index: -1;
-	}
-	.hero-text {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		letter-spacing: 2px;
-	}
+  span.logo {
+    font-weight: bold;
+    color: $detail-color;
+  }
+  .hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 15, 15, 0.8);
+    z-index: -1;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+  }
 
-	.material-symbols-outlined {
-		position: absolute;
-		left: 50%;
-		transform: translate(-50%);
-		bottom: 0;
-		font-weight: bold;
-		color: $main-color;
-		font-size: 60px;
-	}
+  .material-symbols-outlined {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    font-weight: bold;
+    color: $main-color;
+    font-size: 60px;
+  }
 }
 
 // aboutus
 .aboutus {
-	background-color: rgb(240, 210, 210);
-	background-color: $main-color;
-	.material-symbols-outlined {
-		margin-top: 20px;
-		font-size: 30px;
-	}
-	.aboutus-card-title {
-		font-size: 18px;
-		text-transform: uppercase;
-	}
-	.aboutus-card-text {
-		font-size: 14px;
-	}
+  background-color: rgb(240, 210, 210);
+  background-color: $main-color;
+  .material-symbols-outlined {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .aboutus-card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .aboutus-card-text {
+    font-size: 14px;
+  }
 
-	.abouus-hover {
-		transition: color 0.3s;
-	}
-	.abouus-hover:hover {
-		color: $detail-color;
-	}
+  .abouus-hover {
+    transition: color 0.3s;
+  }
+  .abouus-hover:hover {
+    color: $detail-color;
+  }
 }
 
 // aboutus-hero
 
 .aboutus-hero {
-	position: relative;
-	background-image: url('../img/technology-2818664_640.jpg');
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	z-index: 0;
-	color: $main-color;
-	.aboutus-card-title {
-		margin-top: 20px;
-		text-transform: uppercase;
-		font-size: 20px;
-	}
-	.aboutus-card-text {
-		font-size: 14px;
-	}
-	.aboutus-shadow {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(22, 15, 15, 0.6);
-		z-index: -1;
-	}
+  position: relative;
+  background-image: url("../img/technology-2818664_640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  color: $main-color;
+  .aboutus-card-title {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .aboutus-card-text {
+    font-size: 14px;
+  }
+  .aboutus-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 15, 15, 0.6);
+    z-index: -1;
+  }
 }
 
 // portfolio
 
 .portfolio {
-	background-color: $main-color;
+  background-color: $main-color;
 
-	.carousel-item {
-		background-position: center;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+  .carousel-item {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
-	.carousel-caption {
-		left: 0;
-		width: 100%;
-		padding: 30px 0;
-		background-color: rgba(0, 0, 0, 0.8);
-		color: $main-color;
-		h5 {
-			font-size: 20px;
-		}
-		p {
-			font-size: 14px;
-		}
-	}
-	.carousel-indicators {
-		margin-bottom: 30px;
-	}
+  .carousel-caption {
+    left: 0;
+    width: 100%;
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: $main-color;
+    h5 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .carousel-indicators {
+    margin-bottom: 30px;
+  }
 
-	.row {
-		box-sizing: border-box;
-		.card {
-			background-color: $main-color;
-			border: none;
-		}
-	}
+  .row {
+    box-sizing: border-box;
+    .card {
+      background-color: $main-color;
+      border: none;
+    }
+  }
+}
+
+// pricies
+
+.prices {
+  .prices-item {
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+  }
 }
 
 @media (min-width: 576px) {
-	.portfolio {
-		.row {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			.card {
-				width: 250px;
-				height: 400px;
-				margin-right: 8px;
-				margin-left: 8px;
-			}
-		}
-	}
+  .portfolio {
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card {
+        width: 250px;
+        height: 400px;
+        margin-right: 8px;
+        margin-left: 8px;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) {
-	h1 {
-		font-size: 38px;
-	}
-	p {
-		font-size: 20px;
-	}
-	.portfolio {
-		.row {
-			.card {
-				width: 300px;
-				height: 500px;
-				margin-right: 8px;
-				margin-left: 8px;
-			}
-		}
-	}
+  h1 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .portfolio {
+    .row {
+      .card {
+        width: 300px;
+        height: 500px;
+        margin-right: 8px;
+        margin-left: 8px;
+      }
+    }
+  }
 }
 @media (min-width: 1200px) {
-	.header.hero-img {
-		background-image: url('../img/video-games-1557358_1920.jpg');
-	}
-	.aboutus-hero {
-		background-image: url('../img/technology-2818664_1920.jpg');
-	}
+  .header.hero-img {
+    background-image: url("../img/video-games-1557358_1920.jpg");
+  }
+  .aboutus-hero {
+    background-image: url("../img/technology-2818664_1920.jpg");
+  }
 }
