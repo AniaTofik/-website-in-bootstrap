@@ -212,11 +212,40 @@ header.hero-img {
 	.prices-underline {
 		margin: 0 auto 20px;
 		width: 80%;
-		height: 1px;
+		height: 0.7px;
 		background-color: rgb(78, 76, 76);
 	}
-	.prices-item-3 {
-		margin: 0 auto;
+	.price-box {
+		box-shadow: 5px 5px 5px grey;
+
+		.price-title {
+			padding-top: 20px;
+			color: $detail-color;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		.btn {
+			border: none;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		.btn:hover {
+			background-color: $detail-color;
+		}
+		p span {
+			font-weight: bold;
+			.fas {
+				font-size: 25px;
+				margin: 7px;
+			}
+		}
+	}
+	.information {
+		a {
+			text-decoration: none;
+			color: $detail-color;
+			font-weight: bold;
+		}
 	}
 }
 

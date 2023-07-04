@@ -13,7 +13,7 @@ body {
 }
 
 span.logo {
-  color: rgb(209, 32, 141);
+  color: rgb(209, 32, 194);
 }
 
 .shadow-bg {
@@ -30,7 +30,7 @@ span.logo {
   margin: 0 auto 20px;
   width: 18%;
   height: 4px;
-  background-color: rgb(209, 32, 141);
+  background-color: rgb(209, 32, 194);
 }
 
 nav.navbar {
@@ -42,10 +42,10 @@ nav.navbar navbar-toggler {
   padding: 10px 15px;
 }
 nav.navbar .navbar-brand:hover {
-  color: rgb(209, 32, 141);
+  color: rgb(209, 32, 194);
 }
 nav.navbar .navbar-brand:hover {
-  color: rgb(209, 32, 141);
+  color: rgb(209, 32, 194);
 }
 nav.navbar .navbar-brand {
   font-weight: bold;
@@ -63,7 +63,7 @@ nav.navbar .nav-link:focus,
 nav.navbar .nav-link:hover,
 nav.navbar .navbar-nav .nav-link.active,
 nav.navbar .navbar-nav .nav-link.show {
-  color: rgb(209, 32, 141);
+  color: rgb(209, 32, 194);
 }
 
 header.hero-img {
@@ -81,7 +81,7 @@ header.hero-img {
 }
 header.hero-img span.logo {
   font-weight: bold;
-  color: rgb(209, 32, 141);
+  color: rgb(209, 32, 194);
 }
 header.hero-img .hero-shadow {
   position: absolute;
@@ -128,7 +128,7 @@ header.hero-img .material-symbols-outlined {
   transition: color 0.3s;
 }
 .aboutus .abouus-hover:hover {
-  color: rgb(209, 32, 141);
+  color: rgb(209, 32, 194);
 }
 
 .aboutus-hero {
@@ -193,11 +193,37 @@ header.hero-img .material-symbols-outlined {
 .prices .prices-underline {
   margin: 0 auto 20px;
   width: 80%;
-  height: 1px;
+  height: 0.7px;
   background-color: rgb(78, 76, 76);
 }
-.prices .prices-item-3 {
-  margin: 0 auto;
+.prices .price-box {
+  box-shadow: 5px 5px 5px grey;
+}
+.prices .price-box .price-title {
+  padding-top: 20px;
+  color: rgb(209, 32, 194);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.prices .price-box .btn {
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.prices .price-box .btn:hover {
+  background-color: rgb(209, 32, 194);
+}
+.prices .price-box p span {
+  font-weight: bold;
+}
+.prices .price-box p span .fas {
+  font-size: 25px;
+  margin: 7px;
+}
+.prices .information a {
+  text-decoration: none;
+  color: rgb(209, 32, 194);
+  font-weight: bold;
 }
 
 @media (min-width: 576px) {
