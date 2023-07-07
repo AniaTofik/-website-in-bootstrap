@@ -298,7 +298,15 @@ header.hero-img {
 		z-index: -5;
 	}
 }
-
+//  achievements
+.achievements {
+	background-color: $main-color;
+	.transparent {
+		color: transparent;
+		color: white;
+		font-size: 20px;
+	}
+}
 @media (min-width: 576px) {
 	.portfolio {
 		.row {

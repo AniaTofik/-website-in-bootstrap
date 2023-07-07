@@ -269,6 +269,15 @@ header.hero-img .material-symbols-outlined {
   z-index: -5;
 }
 
+.achievements {
+  background-color: #f1e9f1;
+}
+.achievements .transparent {
+  color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
 @media (min-width: 576px) {
   .portfolio .row {
     display: flex;
