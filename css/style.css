@@ -240,14 +240,17 @@ header.hero-img .material-symbols-outlined {
   transition: scale 0.5s;
 }
 .team .card-group .card img {
-  height: 300px;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .team .card-group .card i {
   padding: 10px;
 }
-.team .card-group .card .card-title {
+.team .card-group .card .card-body {
+  height: 160px;
+}
+.team .card-group .card .card-body .card-title {
   margin-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
