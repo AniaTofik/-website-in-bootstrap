@@ -273,8 +273,7 @@ header.hero-img {
 				padding: 10px;
 			}
 			.card-body {
-				height: 160px;
-
+				height: 180px;
 				.card-title {
 					margin-bottom: 20px;
 					text-transform: uppercase;
@@ -313,10 +312,43 @@ header.hero-img {
 }
 // contact
 .contact {
-	.fab {
-		display: block;
+	position: relative;
+	background-image: url('../img/skyline-g90c310bde_1920.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: $main-color;
+	z-index: 0;
+	.contact-item {
+		.contact-title {
+			text-transform: uppercase;
+			font-size: 25px;
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 16px;
+		}
+		.social-media {
+			.fab {
+				font-size: 25px;
+				padding: 10px;
+				color: $main-color;
+			}
+			.fab:hover {
+				color: $detail-color;
+			}
+		}
+	}
+	.contact-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(15, 15, 15, 0.8);
+		z-index: -5;
 	}
 }
+
 @media (min-width: 576px) {
 	.portfolio {
 		.row {

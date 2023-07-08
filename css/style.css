@@ -248,7 +248,7 @@ header.hero-img .material-symbols-outlined {
   padding: 10px;
 }
 .team .card-group .card .card-body {
-  height: 160px;
+  height: 180px;
 }
 .team .card-group .card .card-body .card-title {
   margin-bottom: 20px;
@@ -282,8 +282,38 @@ header.hero-img .material-symbols-outlined {
   text-shadow: 0 0 5px black;
 }
 
-.contact .fab {
-  display: block;
+.contact {
+  position: relative;
+  background-image: url("../img/skyline-g90c310bde_1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f1e9f1;
+  z-index: 0;
+}
+.contact .contact-item .contact-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contact .contact-item p {
+  font-size: 16px;
+}
+.contact .contact-item .social-media .fab {
+  font-size: 25px;
+  padding: 10px;
+  color: #f1e9f1;
+}
+.contact .contact-item .social-media .fab:hover {
+  color: rgb(209, 32, 194);
+}
+.contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.8);
+  z-index: -5;
 }
 
 @media (min-width: 576px) {
