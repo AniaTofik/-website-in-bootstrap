@@ -290,10 +290,14 @@ header.hero-img .material-symbols-outlined {
   color: #f1e9f1;
   z-index: 0;
 }
+.contact .contact-item {
+  margin: 30px 0;
+}
 .contact .contact-item .contact-title {
   text-transform: uppercase;
   font-size: 25px;
   margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 .contact .contact-item p {
   font-size: 16px;
@@ -302,6 +306,7 @@ header.hero-img .material-symbols-outlined {
   font-size: 25px;
   padding: 10px;
   color: #f1e9f1;
+  transition: color 0.3s;
 }
 .contact .contact-item .social-media .fab:hover {
   color: rgb(209, 32, 194);
