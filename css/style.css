@@ -282,6 +282,10 @@ header.hero-img .material-symbols-outlined {
   text-shadow: 0 0 5px black;
 }
 
+.contact .fab {
+  display: block;
+}
+
 @media (min-width: 576px) {
   .portfolio .row {
     display: flex;

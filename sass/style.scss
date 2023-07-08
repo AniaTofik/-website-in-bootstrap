@@ -311,6 +311,12 @@ header.hero-img {
 		text-shadow: 0 0 5px black;
 	}
 }
+// contact
+.contact {
+	.fab {
+		display: block;
+	}
+}
 @media (min-width: 576px) {
 	.portfolio {
 		.row {
