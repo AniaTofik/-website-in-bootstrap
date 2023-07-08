@@ -270,12 +270,16 @@ header.hero-img .material-symbols-outlined {
 }
 
 .achievements {
+  padding: 20px 0;
   background-color: #f1e9f1;
 }
-.achievements .transparent {
-  color: transparent;
+.achievements .achievement-description {
+  font-size: 90%;
+}
+.achievements .fas {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  text-shadow: 0 0 5px black;
 }
 
 @media (min-width: 576px) {
