@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function () {
 	const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
 	function addShadow() {
-		if (window.scrollY >= 223) {
+		if (window.scrollY >= 0) {
 			nav.classList.add('shadow-bg');
 		} else {
 			nav.classList.remove('shadow-bg');
 		}
 	}
-	addShadow();
+	nav.addEventListener('click', addShadow);
 
 	const homeLink = document.querySelector(
 		'.navbar-nav .nav-link[href="#home"]'
