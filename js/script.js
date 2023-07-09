@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	const nav = document.querySelector('.navbar');
-	const navbarCollapse = document.querySelector('.navbar-collapse');
+	const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
 	function addShadow() {
 		if (window.scrollY >= 223) {
@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		'.navbar-nav .nav-link[href="#home"]'
 	);
 
-	const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 	navLinks.forEach((link) => {
 		link.addEventListener('click', function () {
 			navLinks.forEach((link) => {
