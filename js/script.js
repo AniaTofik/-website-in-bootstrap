@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 	const nav = document.querySelector('.navbar');
-	const navLinks = document.querySelectorAll('.nav-link');
 	const navbarCollapse = document.querySelector('.navbar-collapse');
 
 	function addShadow() {
@@ -12,11 +11,22 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 	addShadow();
 
-	navLinks.forEach((navLink) =>
-		navLink.addEventListener('click', () => {
-			navbarCollapse.classList.remove('show');
-		})
+	const homeLink = document.querySelector(
+		'.navbar-nav .nav-link[href="#home"]'
 	);
+
+	const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+	navLinks.forEach((link) => {
+		link.addEventListener('click', function () {
+			navLinks.forEach((link) => {
+				link.classList.remove('active');
+			});
+			this.classList.add('active');
+			if (this !== homeLink) {
+				homeLink.classList.remove('active');
+			}
+		});
+	});
 
 	window.addEventListener('scroll', addShadow);
 });
