@@ -170,9 +170,6 @@ header.hero-img .material-symbols-outlined {
 .aboutus .abouus-hover {
   transition: color 0.3s;
 }
-.aboutus .abouus-hover:hover {
-  color: rgb(209, 32, 194);
-}
 
 .aboutus-hero {
   position: relative;
